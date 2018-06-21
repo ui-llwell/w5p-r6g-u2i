@@ -2,3 +2,23 @@
 .indexWrap{
   
 }
+
+
+/**show.wxss**/
+.commodityImages {
+  width: 100%;
+  height: 380rpx;
+  position: relative;
+}
+.commodityImages swiper, .commodityImages swiper-item, .commodityImages block, .commodityImages image{
+  width: 100%;
+  height: 100%;
+}
+.headline{
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 28rpx;
+}

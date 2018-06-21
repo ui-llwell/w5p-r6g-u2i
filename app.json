@@ -15,9 +15,9 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#69C3AA",
+    "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "流连优选",
-    "navigationBarTextStyle":"light"
+    "navigationBarTextStyle":"black"
   },
   "tabBar": {
     "color": "#a9b7b7",

@@ -34,7 +34,7 @@
 				{
 					"id": 0,
 					"name": "test",
-					"pathName": "pages/start/start",
+					"pathName": "pages/index/index",
 					"query": "",
 					"scene": "1001"
 				}

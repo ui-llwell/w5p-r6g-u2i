@@ -1,1 +1,14 @@
-<view class='indexWrap'>首页</view>
+<view class='indexWrap'>
+    <view class="commodityImages">
+      <!-- <image src="https://pic.centanet.com/dalian/postimage/xinfang/20180410/345ae5a840d200c4b73edf901e104db8_800x560_w.jpg?f=webp" background-size="cover"></image> -->
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image" />
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class='headline'>好物品评</view>
+
+</view>
