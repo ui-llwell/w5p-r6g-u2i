@@ -1,0 +1,54 @@
+{
+  "pages":[
+   "pages/start/start",
+   "pages/index/index",
+   "pages/barRanking/index",
+   "pages/barSquare/index",
+   "pages/barMine/index",
+   "pages/noshop/noshop",
+    
+    "pages/second/second",
+    "pages/myOrder/myOrder",
+    "pages/authorize/index",
+    "pages/show/show"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#69C3AA",
+    "navigationBarTitleText": "流连优选",
+    "navigationBarTextStyle":"light"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#4890df",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "static/img/扫码下单@3x.png",
+        "iconPath": "static/img/扫码下单-未触发@3x.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "static/img/我的订单-触发@3x.png",
+        "iconPath": "static/img/我的订单-未触发@3x.png",
+        "pagePath": "pages/barRanking/index",
+        "text": "排行榜"
+      },
+      {
+        "selectedIconPath": "static/img/扫码下单@3x.png",
+        "iconPath": "static/img/扫码下单-未触发@3x.png",
+        "pagePath": "pages/barSquare/index",
+        "text": "广场"
+      },
+      {
+        "selectedIconPath": "static/img/我的订单-触发@3x.png",
+        "iconPath": "static/img/我的订单-未触发@3x.png",
+        "pagePath": "pages/barMine/index",
+        "text": "我的"
+      }
+    ]
+  }
+  
+}
