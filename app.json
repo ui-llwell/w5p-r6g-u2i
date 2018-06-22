@@ -15,7 +15,7 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#FAFAFC",
     "navigationBarTitleText": "流连优选",
     "navigationBarTextStyle":"black"
   },
