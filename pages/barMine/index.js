@@ -6,14 +6,34 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    userInfo: {},
+    projectSource: 'https://github.com/liuxuanqiang/wechat-weapp-mall',
+    userListInfo: [{
+      icon: '',
+      text: '我的品评',
+      isunread: false ,
+      // unreadNum: 2
+    }, {
+      icon: '',
+      text: '我的活动',
+      isunread: false,
+      // unreadNum: 2
+    }, {
+      icon: '',
+      text: '联系客服',
+      isunread: false,
+      // unreadNum: 1
+    }, {
+      icon: '',
+      text: '关于我们'
+    }]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    
   },
 
   /**

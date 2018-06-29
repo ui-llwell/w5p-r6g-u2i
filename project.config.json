@@ -34,7 +34,7 @@
 				{
 					"id": 0,
 					"name": "test",
-					"pathName": "pages/barRanking/index",
+					"pathName": "pages/barMine/index",
 					"query": "",
 					"scene": "1001"
 				}
